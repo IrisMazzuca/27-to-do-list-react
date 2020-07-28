@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    background-color: rgb(243, 222, 138);
+    font-family: 'Handlee', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.inputTask,
+.task,
+.filtersContainer {
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin: .3rem;
+    background-color: rgb(245, 245, 245);
+    border-radius: 1rem;
+}
+
+.inputTask {
+    border: none;
+    outline: none;
+    position: relative;
+    margin-left: 1.2rem;
+
+}
+
+.plusIcon {
+    position: relative;
+    left: -2rem;
+    color: rgb(126, 127, 154);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.trashIcon {
+    color: rgb(235, 148, 134);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.trashIcon:hover,
+.plusIcon:hover {
+    transform: scale(1.2);
+}
+
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(235, 148, 134);
+}
+
+.checkbox {
+    margin: 0 .5rem 0 0;
+}
+
+.filtersContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filterBtn {
+    border: none;
+    outline: none;
+    padding: 0.3rem .8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+
+.filterBtn--blue {
+    border: 2px solid rgb(151, 167, 179);
+}
+
+.filterBtn--blue:hover,
+.filterBtn--blue:focus,
+.filterBtn--blue:active {
+    background-color: rgb(151, 167, 179);
+}
+
+.filterBtn--green {
+    border: 2px solid rgb(132, 181, 159);
+}
+
+.filterBtn--green:hover,
+.filterBtn--green:focus,
+.filterBtn--green:active {
+    background-color: rgb(132, 181, 159);
+}
+
+.filterBtn--red {
+    border: 2px solid rgb(235, 148, 134);
+}
+
+.filterBtn--red:hover,
+.filterBtn--red:focus,
+.filterBtn--red:active {
+    background-color: rgb(235, 148, 134);
+}
+
+.github {
+    width: 3rem;
+    height: 4rem;
+    background-color: rgba(107, 105, 105, 0.239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    position: fixed;
+    top: -.6rem;
+    left: 1rem;
+
+}
+
+.github:hover {
+    cursor: pointer;
+    background-color: rgba(107, 105, 105, 0.557);
+    box-shadow: 0 0 10px 1px rgb(209, 209, 209);
+}
+
+.github>a {
+    font-size: 1.9rem;
+    color: rgb(0, 0, 0);
+}
+
+.github>a:visited {
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 680px) {
+
+    .inputTask,
+    .task,
+    .filtersContainer {
+        width: 250px;
+    }
+
+    .plusIcon {
+        left: 16rem;
+        top: -2.5rem;
+
+    }
+
+    .filterBtn {
+        padding: 0.2rem .5rem;
+
+    }
+}
