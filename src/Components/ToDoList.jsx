@@ -8,7 +8,7 @@ import GithubLink from './GithubLink';
 
 const ToDoList = () => {
 
-    const [list, setList] = useState([]);
+    const [list, setList] = useState([{ name: "👉 Ir al supermerado", status: 'incompleto' }, { name: "👉 Ir a la farmacia", status: 'completo' }, { name: "👉 Comprar regalos", status: 'incompleto' }]);
     const [filter, setFilter] = useState(null);
 
     const addTask = (task) => {

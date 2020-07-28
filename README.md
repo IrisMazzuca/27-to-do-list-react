@@ -1,3 +1,11 @@
+# To-Do-List 
+React exercise at ADA IT Bootcamp
+
+[Click to go to the website](https://irismazzuca.github.io/to-do-list-react/)
+
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
