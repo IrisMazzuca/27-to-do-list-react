@@ -1,6 +1,6 @@
 # To-Do-List 
 React exercise at ADA IT Bootcamp
-![Click to go to the website](https://irismazzuca.github.io/to-do-list-react/)
+[Click to go to the website](https://irismazzuca.github.io/to-do-list-react/)
 
 
 
