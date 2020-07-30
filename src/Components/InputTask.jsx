@@ -8,9 +8,11 @@ const InputTask = ({ action }) => {
         <div>
             <h1 className="title"> To Do List </h1>
 
-            <input className="inputTask" type="text"
+            <input className="inputTask"
+                type="text"
                 onChange={(event) => setTask(event.target.value)}
-                name="input-task" placeholder="Ingrese una tarea"
+                name="input-task"
+                placeholder="Ingrese una tarea"
                 value={task} />
 
             <FaPlusCircle

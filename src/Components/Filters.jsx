@@ -14,17 +14,13 @@ const Filters = ({ setFilter, quantity }) => {
             </button>
             <button
                 className="filterBtn filterBtn--red"
-                onClick={() => {
-                    setFilter("incompleto")
-                }}
+                onClick={() => setFilter(false)}
             >
                 Incompletas
             </button>
             <button
                 className="filterBtn filterBtn--green"
-                onClick={() => {
-                    setFilter("completo")
-                }}
+                onClick={() => setFilter(true)}
             >
                 Completas
             </button>
